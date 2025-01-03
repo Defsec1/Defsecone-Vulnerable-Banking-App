@@ -12,6 +12,8 @@ Have fun. The objective is attack and defense. First identify vulnerability and 
 Installation:
 sudo docker pull girivvveera/html_db:latest
 sudo docker pull girivvveera/html_web:latest
+sudo docker network create webnet
+
 
 Start the web server:
 sudo docker run -d --name web-container \
