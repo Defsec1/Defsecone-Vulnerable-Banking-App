@@ -26,7 +26,7 @@ sudo docker run -d --name web-container \
   girivvveera/html_web:latest
 
 Start the database:
-udo docker run -d --name db \           
+sudo docker run -d --name db \           
   -e MYSQL_ROOT_PASSWORD=root_password \
   -e MYSQL_DATABASE=webserver \
   -e MYSQL_USER=wp_user \
